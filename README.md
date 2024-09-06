@@ -1,29 +1,16 @@
 # practice
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a simple todo app implementation using vue js 3..
 
-## Recommended IDE Setup
+# API
+composition API
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+# key features
+1.list rendering using v-for
+2.conditional rendering using v-if
+3.computed property
+4.data binding using v-bind and v-model
+5.event handling using v-on that is @
 
-## Customize configuration
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```

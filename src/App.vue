@@ -17,6 +17,7 @@ import { ref } from "vue";
 const newTodo = ref("");
 const todos = ref([
   { id: 1, text: "Learn Vue" },
+  { id: 2, text: "Get familiar with core concepts" },
   { id: 2, text: "Build a To-Do App" },
 ]);
 
