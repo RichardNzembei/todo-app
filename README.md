@@ -10,7 +10,7 @@ composition API
 
 # key features
 1.list rendering using v-for and :key directive
-2.conditional rendering using v-if
+2.conditional rendering using v-if and v-else
 3.computed property and methods
 4.data binding using v-bind and v-model
 5.event handling using v-on that is @
