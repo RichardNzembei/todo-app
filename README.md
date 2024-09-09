@@ -14,6 +14,8 @@ composition API
 3.computed property
 4.data binding using v-bind and v-model
 5.event handling using v-on that is @
+6.state management using onHashChange function
+
 
 
 
