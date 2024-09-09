@@ -2,6 +2,9 @@
 
 This is a simple todo app implementation using vue js 3..
 
+# UI screenshot
+![Todo App UI](./src/assets/images/UI.png)
+
 # API
 composition API
 
