@@ -71,7 +71,6 @@ onHashChange();
             </button>
           </ul>
         </section>
-
         <br /><br />
         <div class="listCard">
           <section
@@ -85,16 +84,15 @@ onHashChange();
             <p>{{ todo.id }}</p>
           </section>
         </div>
-      </section><br><br>
-      <footer>
-      <section class="footer" v-show="todos.length">
-        <strong>{{ remaining }}</strong>
-        <span>{{ remaining===0? 'task':'tasks' }} left</span>
       </section>
-     
-    </footer>
+      <br /><br />
+      <footer>
+        <section class="footer" v-show="todos.length">
+          <strong>{{ remaining }}</strong>
+          <span>{{ remaining === 0 ? "task" : "tasks" }} left</span>
+        </section>
+      </footer>
     </div>
-    
   </div>
 </template>
 <style scoped>
@@ -213,12 +211,12 @@ p {
   shape-margin: 10px;
   border-radius: 5px;
 }
-.footer{
+.footer {
   background-color: rgb(203, 205, 207);
-  margin: 8px ;
- padding: 10px;
-  
+  margin: 8px;
+  padding: 10px;
+
   border-radius: 10px;
-  width:100px ;
+  width: 100px;
 }
 </style>
