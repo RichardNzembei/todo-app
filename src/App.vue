@@ -89,7 +89,7 @@ onHashChange();
       <footer>
         <section class="footer" v-show="todos.length">
           <strong>{{ remaining }}</strong>
-          <span>{{ remaining === 0 ? "task" : "tasks" }} left</span>
+          <span>{{ remaining === 1 ? "task" : "tasks" }} left</span>
         </section>
       </footer>
     </div>
