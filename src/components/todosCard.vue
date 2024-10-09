@@ -21,11 +21,18 @@ const remaining = computed(() => filters.active(todos.value).length);
 
 function addTodo() {
   if (NewTodo.value.trim()) {
+    const date = new Date();
+    const formattedDate = date.toLocaleDateString('en-US', {
+      day: 'numeric',
+      month: 'long' 
+    });
+
     todos.value.push({
-      id: new Date().toISOString(),
+      id: formattedDate, 
       text: NewTodo.value,
       completed: false,
     });
+    
     NewTodo.value = "";
   }
 }

@@ -3,7 +3,7 @@ This is a simple todo app implementation using vue js 3..
 # Link
 visit:[Todo App](https://todo-app-1-pcc4.onrender.com/)
 # UI screenshot
-![Todo App UI](./src/assets/images/UI.png)
+![Todo App UI](./src/assets/images/UI.jpg)
 
 # API
 composition API
