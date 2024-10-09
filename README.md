@@ -9,12 +9,13 @@ visit:[Todo App](https://todo-app-1-pcc4.onrender.com/)
 composition API
 
 # key features
-1.list rendering using v-for and :key attribute
-2.conditional rendering using v-if and v-else
-3.computed property and methods
-4.data binding using v-bind and v-model
-5.event handling using v-on that is @
-6.state management using onHashChange function
+1.list rendering using v-for and :key attribute<br>
+2.conditional rendering using v-if and v-else<br>
+3.computed property and methods<br>
+4.data binding using v-bind and v-model<br>
+5.event handling using v-on that is @<br>
+6.route management using vue router<br>
+7.responsiveness using tailwind css
 
 
 
