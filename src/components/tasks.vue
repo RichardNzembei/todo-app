@@ -2,6 +2,6 @@
 import footerCard from './footerCard.vue';
 </script>
 <template>
-    <h3>goals</h3>
+    <h3>calender</h3>
     <footerCard/>
 </template>
